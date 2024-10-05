@@ -5,7 +5,12 @@ public class Orwell {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Give a year: ");  // Ask the user to enter a year.
+        int year = scan.nextInt();
 
-        // Write your program here
+        if (year == 1984) { 
+            System.out.println("Orwell");
+        }
     }
 }
